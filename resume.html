@@ -1,11 +1,39 @@
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en" style="width:100%; height:100%;">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>kekayan's Resume</title>
+  <meta charset="utf-8">
+  <title>Rishabh's Resume</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    .pdf-container {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
 </head>
-  <body style="width:100%; height:100%; margin:0;">
-    <iframe src="https://docs.google.com/gview?url= https://github.com/RishabhB05/Resume/blob/main/Rishabh%20Baruah%20resume%20latest.pdf &embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
-  </body>
+<body>
+  <!-- Option 1: Direct PDF embed (works on most browsers) -->
+  <embed 
+    class="pdf-container" 
+    src="https://raw.githubusercontent.com/RishabhB05/Resume/main/Rishabh%20Baruah%20resume%20latest.pdf"
+    type="application/pdf"
+  >
+
+  <!-- Option 2: Alternative using object tag -->
+  <!--
+  <object 
+    class="pdf-container" 
+    data="https://raw.githubusercontent.com/RishabhB05/Resume/main/Rishabh%20Baruah%20resume%20latest.pdf"
+    type="application/pdf"
+  >
+    <p>Unable to display PDF. <a href="https://raw.githubusercontent.com/RishabhB05/Resume/main/Rishabh%20Baruah%20resume%20latest.pdf">Download instead</a></p>
+  </object>
+  -->
+</body>
 </html>
